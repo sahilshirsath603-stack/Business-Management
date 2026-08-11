@@ -1,0 +1,521 @@
+{
+  "users": [
+    {
+      "id": "u-admin-sahil",
+      "name": "Sahil Admin",
+      "email": "sahil@gmail.com",
+      "password": "$2b$10$7XQqopvXW2wROqXYG/gs2.cZ4LelYgcU28jCkwy5FNd7hJkH6JxP.",
+      "role": "admin",
+      "department": "Management",
+      "designation": "Super System Administrator",
+      "reportsTo": null,
+      "status": "active",
+      "isProtected": true,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "u-1786348368196",
+      "name": "new dude",
+      "email": "newdude@gmail.com",
+      "password": "$2b$10$W77l5rT2bAqJhZ8KsWaZAuQCRDb.1.D4pqWvgSYK1maqgSJfcvwZi",
+      "role": "employee",
+      "department": "Engineering",
+      "designation": "Web Developer",
+      "reportsTo": "u-1786348232284",
+      "status": "active",
+      "createdAt": "2026-08-10"
+    },
+    {
+      "id": "u-1786349730266",
+      "name": "alex",
+      "email": "alex@company.com",
+      "password": "$2b$10$gNB7O4bGlzj9ZdIcICVk3unZDVBAoU64.OBRNBim0qR0k7s/vj.L2",
+      "role": "manager",
+      "department": "Engineering",
+      "designation": "Web Developer",
+      "reportsTo": null,
+      "status": "active",
+      "createdAt": "2026-08-10"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-1786349003089",
+      "userId": "u-1786348232284",
+      "userName": "ALex",
+      "userRole": "manager",
+      "department": "Engineering",
+      "date": "2026-08-10",
+      "clockIn": "01:33 PM",
+      "clockOut": null,
+      "status": "late",
+      "workHours": 0,
+      "notes": "Normal Check-in"
+    },
+    {
+      "id": "att-1786348411606",
+      "userId": "u-1786348368196",
+      "userName": "new dude",
+      "userRole": "employee",
+      "department": "Engineering",
+      "date": "2026-08-10",
+      "clockIn": "01:23 PM",
+      "clockOut": "01:26 PM",
+      "status": "late",
+      "workHours": 8,
+      "notes": "Normal Check-in"
+    },
+    {
+      "id": "att-1",
+      "userId": "u-3",
+      "userName": "Alex Johnson",
+      "userRole": "employee",
+      "department": "Engineering",
+      "date": "2026-08-10",
+      "clockIn": "09:00 AM",
+      "clockOut": null,
+      "status": "present",
+      "workHours": 0,
+      "notes": "Remote working"
+    },
+    {
+      "id": "att-2",
+      "userId": "u-2",
+      "userName": "David Miller",
+      "userRole": "manager",
+      "department": "Marketing",
+      "date": "2026-08-10",
+      "clockIn": "08:45 AM",
+      "clockOut": null,
+      "status": "present",
+      "workHours": 0,
+      "notes": "In Office"
+    }
+  ],
+  "leaves": [
+    {
+      "id": "lv-1786355436931",
+      "userId": "u-admin-sahil",
+      "userName": "Sahil Admin",
+      "department": "Management",
+      "type": "Casual Leave (CL)",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-15",
+      "days": 6,
+      "reason": "Vacation",
+      "status": "pending",
+      "appliedOn": "2026-08-10",
+      "comment": ""
+    },
+    {
+      "id": "lv-1786349277577",
+      "userId": "u-1786348232284",
+      "userName": "ALex",
+      "department": "Engineering",
+      "type": "Casual Leave (CL)",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-02",
+      "days": 2,
+      "reason": "Personal work",
+      "status": "approved",
+      "appliedOn": "2026-08-10",
+      "comment": "Approved by Manager"
+    },
+    {
+      "id": "lv-1786349257301",
+      "userId": "u-admin-sahil",
+      "userName": "Sahil Admin",
+      "department": "Management",
+      "type": "Casual Leave (CL)",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-02",
+      "days": 2,
+      "reason": "Test",
+      "status": "pending",
+      "appliedOn": "2026-08-10",
+      "comment": ""
+    },
+    {
+      "id": "lv-1786349245513",
+      "userId": "u-1786348232284",
+      "userName": "ALex",
+      "department": "Engineering",
+      "type": "Casual Leave (CL)",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-02",
+      "days": 2,
+      "reason": "Personal work",
+      "status": "rejected",
+      "appliedOn": "2026-08-10",
+      "comment": "Rejected by Manager"
+    },
+    {
+      "id": "lv-1786349238135",
+      "userId": "u-1786348232284",
+      "userName": "ALex",
+      "department": "Engineering",
+      "type": "Casual Leave (CL)",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-02",
+      "days": 2,
+      "reason": "Personal work",
+      "status": "rejected",
+      "appliedOn": "2026-08-10",
+      "comment": "Rejected by Manager"
+    },
+    {
+      "id": "lv-1786349216679",
+      "userId": "u-1786348232284",
+      "userName": "ALex",
+      "department": "Engineering",
+      "type": "Casual Leave (CL)",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-02",
+      "days": 2,
+      "reason": "Personal work",
+      "status": "rejected",
+      "appliedOn": "2026-08-10",
+      "comment": "Rejected by Manager"
+    },
+    {
+      "id": "lv-1786349206687",
+      "userId": "u-1786348232284",
+      "userName": "ALex",
+      "department": "Engineering",
+      "type": "Casual Leave (CL)",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-02",
+      "days": 2,
+      "reason": "Personal work",
+      "status": "rejected",
+      "appliedOn": "2026-08-10",
+      "comment": "Rejected by Manager"
+    },
+    {
+      "id": "lv-1786348868922",
+      "userId": "u-1786348368196",
+      "userName": "new dude",
+      "department": "Engineering",
+      "type": "Casual Leave (CL)",
+      "startDate": "2026-08-11",
+      "endDate": "2026-08-11",
+      "days": 1,
+      "reason": "for my brother wedding",
+      "status": "approved",
+      "appliedOn": "2026-08-10",
+      "comment": "Approved by Manager"
+    },
+    {
+      "id": "lv-1",
+      "userId": "u-3",
+      "userName": "Alex Johnson",
+      "department": "Engineering",
+      "type": "Sick Leave (SL)",
+      "startDate": "2026-08-15",
+      "endDate": "2026-08-16",
+      "days": 2,
+      "reason": "Medical checkup and recovery",
+      "status": "rejected",
+      "appliedOn": "2026-08-08",
+      "comment": "Rejected by Manager"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-178634979735467",
+      "recipientId": "u-1786348232284",
+      "title": "Leave Request REJECTED",
+      "message": "Your Casual Leave (CL) request from 2026-09-01 to 2026-09-02 was rejected. Comment: Rejected by Manager",
+      "type": "leave_rejected",
+      "relatedId": "lv-1786349206687",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:16:37.354Z"
+    },
+    {
+      "id": "notif-178634979513768",
+      "recipientId": "u-1786348232284",
+      "title": "Leave Request REJECTED",
+      "message": "Your Casual Leave (CL) request from 2026-09-01 to 2026-09-02 was rejected. Comment: Rejected by Manager",
+      "type": "leave_rejected",
+      "relatedId": "lv-1786349216679",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:16:35.137Z"
+    },
+    {
+      "id": "notif-178634979283211",
+      "recipientId": "u-1786348232284",
+      "title": "Leave Request REJECTED",
+      "message": "Your Casual Leave (CL) request from 2026-09-01 to 2026-09-02 was rejected. Comment: Rejected by Manager",
+      "type": "leave_rejected",
+      "relatedId": "lv-1786349238135",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:16:32.832Z"
+    },
+    {
+      "id": "notif-178634979042651",
+      "recipientId": "u-1786348232284",
+      "title": "Leave Request REJECTED",
+      "message": "Your Casual Leave (CL) request from 2026-09-01 to 2026-09-02 was rejected. Comment: Rejected by Manager",
+      "type": "leave_rejected",
+      "relatedId": "lv-1786349245513",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:16:30.426Z"
+    },
+    {
+      "id": "notif-178634975003691",
+      "recipientId": "u-1786349730266",
+      "title": "Account Access Approved! 🎉",
+      "message": "Your account access request has been approved by Sahil Admin. Welcome to Blen Digital!",
+      "type": "access_approved",
+      "relatedId": "u-1786349730266",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:15:50.036Z"
+    },
+    {
+      "id": "notif-17863497302666",
+      "recipientId": "u-admin-sahil",
+      "title": "New Manager Access Request",
+      "message": "alex (alex@company.com) requested Manager level access (Web Developer) for Engineering.",
+      "type": "access_request",
+      "relatedId": "u-1786349730266",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:15:30.266Z"
+    },
+    {
+      "id": "notif-178634934005177",
+      "recipientId": "u-1786348368196",
+      "title": "Leave Request APPROVED",
+      "message": "Your Casual Leave (CL) request from 2026-08-11 to 2026-08-11 was approved. Comment: Approved by Manager",
+      "type": "leave_approved",
+      "relatedId": "lv-1786348868922",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:09:00.051Z"
+    },
+    {
+      "id": "notif-17863492775797",
+      "recipientId": "u-1786348232284",
+      "title": "Leave Request APPROVED",
+      "message": "Your Casual Leave (CL) request from 2026-09-01 to 2026-09-02 was approved. Comment: Approved by Manager",
+      "type": "leave_approved",
+      "relatedId": "lv-1786349277577",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:07:57.579Z"
+    },
+    {
+      "id": "notif-178634927757897",
+      "recipientId": "u-1786348232284",
+      "title": "New Leave Request",
+      "message": "ALex submitted a Casual Leave (CL) request for 2 days (2026-09-01 to 2026-09-02).",
+      "type": "leave_applied",
+      "relatedId": "lv-1786349277577",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:07:57.578Z"
+    },
+    {
+      "id": "notif-178634925730514",
+      "recipientId": "u-admin-sahil",
+      "title": "Leave Request APPROVED",
+      "message": "Your Casual Leave (CL) request from 2026-10-01 to 2026-10-02 was approved. Comment: Test approval",
+      "type": "leave_approved",
+      "relatedId": "lv-1786349257301",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:07:37.305Z"
+    },
+    {
+      "id": "notif-17863492455177",
+      "recipientId": "u-1786348232284",
+      "title": "Leave Request APPROVED",
+      "message": "Your Casual Leave (CL) request from 2026-09-01 to 2026-09-02 was approved. Comment: Approved by Manager",
+      "type": "leave_approved",
+      "relatedId": "lv-1786349245513",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:07:25.517Z"
+    },
+    {
+      "id": "notif-17863492455130",
+      "recipientId": "u-1786348232284",
+      "title": "New Leave Request",
+      "message": "ALex submitted a Casual Leave (CL) request for 2 days (2026-09-01 to 2026-09-02).",
+      "type": "leave_applied",
+      "relatedId": "lv-1786349245513",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:07:25.513Z"
+    },
+    {
+      "id": "notif-178634923813929",
+      "recipientId": "u-1786348232284",
+      "title": "Leave Request APPROVED",
+      "message": "Your Casual Leave (CL) request from 2026-09-01 to 2026-09-02 was approved. Comment: Approved by Manager",
+      "type": "leave_approved",
+      "relatedId": "lv-1786349238135",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:07:18.139Z"
+    },
+    {
+      "id": "notif-17863492381360",
+      "recipientId": "u-1786348232284",
+      "title": "New Leave Request",
+      "message": "ALex submitted a Casual Leave (CL) request for 2 days (2026-09-01 to 2026-09-02).",
+      "type": "leave_applied",
+      "relatedId": "lv-1786349238135",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:07:18.136Z"
+    },
+    {
+      "id": "notif-178634921668363",
+      "recipientId": "u-1786348232284",
+      "title": "Leave Request APPROVED",
+      "message": "Your Casual Leave (CL) request from 2026-09-01 to 2026-09-02 was approved. Comment: Approved by Manager",
+      "type": "leave_approved",
+      "relatedId": "lv-1786349216679",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:06:56.683Z"
+    },
+    {
+      "id": "notif-178634921668039",
+      "recipientId": "u-1786348232284",
+      "title": "New Leave Request",
+      "message": "ALex submitted a Casual Leave (CL) request for 2 days (2026-09-01 to 2026-09-02).",
+      "type": "leave_applied",
+      "relatedId": "lv-1786349216679",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:06:56.680Z"
+    },
+    {
+      "id": "notif-178634920669263",
+      "recipientId": "u-1786348232284",
+      "title": "Leave Request APPROVED",
+      "message": "Your Casual Leave (CL) request from 2026-09-01 to 2026-09-02 was approved. Comment: Approved by Manager",
+      "type": "leave_approved",
+      "relatedId": "lv-1786349206687",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:06:46.692Z"
+    },
+    {
+      "id": "notif-17863492066891",
+      "recipientId": "u-1786348232284",
+      "title": "New Leave Request",
+      "message": "ALex submitted a Casual Leave (CL) request for 2 days (2026-09-01 to 2026-09-02).",
+      "type": "leave_applied",
+      "relatedId": "lv-1786349206687",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:06:46.689Z"
+    },
+    {
+      "id": "notif-178634900698744",
+      "recipientId": "u-1786348368196",
+      "title": "Leave Request APPROVED",
+      "message": "Your Casual Leave (CL) request from 2026-08-11 to 2026-08-11 was approved. Comment: Approved by Manager",
+      "type": "leave_approved",
+      "relatedId": "lv-1786348868922",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:03:26.987Z"
+    },
+    {
+      "id": "notif-178634899320122",
+      "recipientId": "u-1786348368196",
+      "title": "Leave Request APPROVED",
+      "message": "Your Casual Leave (CL) request from 2026-08-11 to 2026-08-11 was approved. Comment: Approved by Manager",
+      "type": "leave_approved",
+      "relatedId": "lv-1786348868922",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:03:13.201Z"
+    },
+    {
+      "id": "notif-178634890087628",
+      "recipientId": "u-1786348368196",
+      "title": "Leave Request APPROVED",
+      "message": "Your Casual Leave (CL) request from 2026-08-11 to 2026-08-11 was approved. Comment: okay enjoy wedding",
+      "type": "leave_approved",
+      "relatedId": "lv-1786348868922",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:01:40.876Z"
+    },
+    {
+      "id": "notif-178634886892220",
+      "recipientId": "u-1786348232284",
+      "title": "New Leave Request",
+      "message": "new dude submitted a Casual Leave (CL) request for 1 days (2026-08-11 to 2026-08-11).",
+      "type": "leave_applied",
+      "relatedId": "lv-1786348868922",
+      "isRead": false,
+      "createdAt": "2026-08-10T08:01:08.922Z"
+    },
+    {
+      "id": "notif-178634839610437",
+      "recipientId": "u-1786348368196",
+      "title": "Account Access Approved! 🎉",
+      "message": "Your account access request has been approved by ALex. Welcome to Blen Digital!",
+      "type": "access_approved",
+      "relatedId": "u-1786348368196",
+      "isRead": false,
+      "createdAt": "2026-08-10T07:53:16.104Z"
+    },
+    {
+      "id": "notif-178634836819672",
+      "recipientId": "u-1786348232284",
+      "title": "New Employee Access Request",
+      "message": "new dude (newdude@gmail.com) has registered for Engineering as Web Developer and needs your approval.",
+      "type": "access_request",
+      "relatedId": "u-1786348368196",
+      "isRead": false,
+      "createdAt": "2026-08-10T07:52:48.196Z"
+    },
+    {
+      "id": "notif-178634827105081",
+      "recipientId": "u-3",
+      "title": "Leave Request REJECTED",
+      "message": "Your Sick Leave (SL) request from 2026-08-15 to 2026-08-16 was rejected. Comment: Rejected by Manager",
+      "type": "leave_rejected",
+      "relatedId": "lv-1",
+      "isRead": false,
+      "createdAt": "2026-08-10T07:51:11.050Z"
+    },
+    {
+      "id": "notif-178634824671126",
+      "recipientId": "u-1786348232284",
+      "title": "Account Access Approved! 🎉",
+      "message": "Your account access request has been approved by Sahil Admin. Welcome to Blen Digital!",
+      "type": "access_approved",
+      "relatedId": "u-1786348232284",
+      "isRead": false,
+      "createdAt": "2026-08-10T07:50:46.711Z"
+    },
+    {
+      "id": "notif-178634823228553",
+      "recipientId": "u-admin-sahil",
+      "title": "New Manager Access Request",
+      "message": "ALex (alex@company.com) requested Manager level access (Web Developer) for Engineering.",
+      "type": "access_request",
+      "relatedId": "u-1786348232284",
+      "isRead": false,
+      "createdAt": "2026-08-10T07:50:32.285Z"
+    },
+    {
+      "id": "notif-1",
+      "recipientId": "u-admin-sahil",
+      "title": "Blen Digital System Active",
+      "message": "Blen Digital Digital Marketing Agency system is fully operational.",
+      "type": "system_announcement",
+      "isRead": false,
+      "createdAt": "2026-08-10T07:45:16.643Z"
+    }
+  ],
+  "leaveBalances": {
+    "u-admin-sahil": {
+      "casual": 10,
+      "sick": 10,
+      "annual": 15
+    },
+    "u-1786348368196": {
+      "casual": 8,
+      "sick": 10,
+      "annual": 15
+    },
+    "u-1786349730266": {
+      "casual": 12,
+      "sick": 10,
+      "annual": 15
+    }
+  }
+}

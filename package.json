@@ -1,0 +1,14 @@
+{
+  "name": "office-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack Office Management System with JWT, Bcrypt, and RBAC",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "cd backend && node server.js",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
